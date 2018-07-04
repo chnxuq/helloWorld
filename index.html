@@ -1,0 +1,206 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <meta name="renderer" content="webkit" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/jquery.cookie.js"></script>
+    <script src="js/All_js.js"></script>
+    <link href="css/Index.css" rel="stylesheet" />
+</head>
+
+<body id="index">
+    <header>
+        <div class="head_box cont_1200">
+            <div class="I_tit">
+                <p>Welcome <a ID="U_name">xxx</a> to sky system</p>
+            </div>
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">Album</a>
+                <a href="#">Article</a>
+                <a href="#">Video</a>
+            </nav>
+            <div class="U_operation">
+                <a ID="L_Cancellation">Cancellation</a>
+            </div>
+            <div class="search_info">
+                <input type="text" ID="Txt_search" />
+                <input type="submit" value="" />
+            </div>
+            <div class="clear_float"></div>
+        </div>
+    </header>
+    <main>
+        <div class="main_box cont_1200">
+            <div class="operation index_main_box">
+
+            </div>
+            <div class="main_info index_main_box">
+                <ul>
+                    <li>
+                        <a href="#"><img src="img/sly_1.png" /></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="img/sly_2.png" /></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="img/sly_3.png" /></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="img/sly_4.png" /></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </main>
+    <footer></footer>
+    <style type="text/css">
+        body#index header {
+            background: #4B4B4B;
+            color: white;
+            box-shadow: 0 0 15px #ccc;
+            text-shadow: 1px 1px 3px white;
+            border-bottom: 1px #aaa solid;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+        }
+        
+        body#index header .head_box {}
+        
+        body#index header a {
+            color: white;
+        }
+        
+        body#index header a:hover {
+            color: #0EAF48;
+        }
+        
+        body#index header div.I_tit {
+            float: left;
+            margin: 0 50px 0 0;
+        }
+        
+        body#index header div.I_tit p {
+            padding: 15px 0;
+        }
+        
+        body#index header div.I_tit p a {}
+        
+        body#index header nav {
+            overflow: hidden;
+            float: left;
+        }
+        
+        body#index header nav a {
+            float: left;
+            padding: 15px 20px;
+        }
+        
+        body#index header nav a.check {
+            background: #0EAF48;
+            color: white;
+        }
+        
+        body#index header div.search_info {
+            float: right;
+            padding: 7px 0 0 0;
+        }
+        
+        body#index header div.search_info input {
+            float: left;
+        }
+        
+        body#index header div.search_info input[type=submit] {
+            width: 35px;
+            border-top-left-radius: 0;
+            border-bottom-left-radius: 0;
+            border-left: none;
+        }
+        
+        body#index header div.search_info input[type=text] {
+            border-top-right-radius: 0;
+            border-bottom-right-radius: 0;
+        }
+        
+        body#index header div.U_operation {
+            float: right;
+            width: 100px;
+        }
+        
+        body#index header div.U_operation a {
+            float: left;
+            padding: 15px 20px;
+        }
+        
+        body#index main {
+            background: #F2F2F2;
+            padding: 80px 0 0 0;
+        }
+        
+        body#index main .main_box {
+            min-height: 1200px;
+        }
+        
+        body#index main .main_box {}
+        
+        body#index main .main_box .operation {
+            min-height: 50px;
+            margin-bottom: 20px;
+        }
+        
+        body#index main .main_box .main_info {
+            min-height: 1000px;
+            background: #f3f3f3;
+            padding: 10px;
+        }
+        
+        body#index main .main_box .main_info ul {
+            overflow: hidden;
+        }
+        
+        body#index main .main_box .main_info ul li {
+            width: 148px;
+            height: 200px;
+            margin: 10px;
+            padding: 10px;
+            border: 1px #eee solid;
+            line-height: 200px;
+            background: white;
+            float: left;
+            overflow: hidden;
+            vertical-align: middle;
+            position: relative;
+        }
+        
+        body#index main .main_box .main_info ul li a {
+            float: left;
+            width: 100%;
+            height: 100%;
+        }
+        
+        body#index main .main_box .main_info ul li a img {
+            width: 100%;
+            float: left;
+            border: 1px #ccc solid;
+            height: 100%;
+            margin: auto;
+            vertical-align: middle;
+        }
+    </style>
+    <script type="text/javascript">
+        $("body#index header nav a").click(function() {
+            $("body#index header nav a").removeClass("check");
+            $(this).addClass("check");
+        })
+    </script>
+
+</body>
+
+</html>

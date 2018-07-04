@@ -1,0 +1,56 @@
+﻿*{padding:0;margin:0;font-size:12px;font-family:'Microsoft YaHei';box-sizing:border-box;outline:none;} 
+ul,ol,li{list-style:none;}a{text-decoration:none;color:black;}a:hover{color:#0EAF48;}
+html,body,form{width:100%;height:100%;}  
+.clear_float{clear:both;}
+input{color:black;} 
+.cont_1200{width:1200px;margin:0 auto;}
+.cont_1000{width:1000px;margin:0 auto;}
+input[type=text],input[type=password]{width:180px;height:30px;border:1px #bababa solid;text-indent:1.5em;border-radius:4px;}
+input[type=button],input[type=submit]{width:80px;height:30px;border:1px #bababa solid;border-radius:3px;letter-spacing:1px;font-weight:bold;}
+input.check_clj{padding:2px 5px !important;width:initial;height:initial;font-weight:initial;}
+
+.index_main_box{background:white;border:1px #ccc solid;box-shadow:0 0 15px #ccc;}
+
+::-webkit-scrollbar {width:7px;height:7px;}/*滚动条大小*/
+::-webkit-scrollbar-button{display:none;}/*滚动条按钮*/
+::-webkit-scrollbar-track{background:#EEE;}/*滚动条中间背景*/ 
+::-webkit-scrollbar-thumb{background:#bbb;border-radius:7px;} /*滚动条顶*/ 
+/**********-------------   按钮 --------------**********/
+.blue {color: #d9eef7;border: solid 1px #0076a3;background: #0095cd;background: -webkit-gradient(linear, left top, left bottom, from(#00adee), to(#0078a5));
+background: -moz-linear-gradient(top,  #00adee,  #0078a5);filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#00adee', endColorstr='#0078a5');}
+.blue:hover {background: #007ead;background: -webkit-gradient(linear, left top, left bottom, from(#0095cc), to(#00678e));
+background: -moz-linear-gradient(top,  #0095cc,  #00678e);filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#0095cc', endColorstr='#00678e');}
+.blue:active {color: #80bed6;background: -webkit-gradient(linear, left top, left bottom, from(#0078a5), to(#00adee));background: -moz-linear-gradient(top,  #0078a5,  #00adee);
+filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#0078a5', endColorstr='#00adee');}
+.rosy {color: #fae7e9;border: solid 1px #b73948;background: #da5867;background: -webkit-gradient(linear, left top, left bottom, from(#f16c7c), to(#bf404f));
+background: -moz-linear-gradient(top,  #f16c7c,  #bf404f);filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#f16c7c', endColorstr='#bf404f');}
+.rosy:hover {background: #ba4b58;background: -webkit-gradient(linear, left top, left bottom, from(#cf5d6a), to(#a53845));
+background: -moz-linear-gradient(top,  #cf5d6a,  #a53845);filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#cf5d6a', endColorstr='#a53845');}
+.rosy:active {color: #dca4ab;background: -webkit-gradient(linear, left top, left bottom, from(#bf404f), to(#f16c7c));background: -moz-linear-gradient(top,  #bf404f,  #f16c7c);
+filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#bf404f', endColorstr='#f16c7c');}
+/***********************--------------后台登录界面----------------************************/  
+body#login{background:url(../img/banner.jpg) no-repeat;background-size:cover;}
+div.login_box{width:100%;background:rgba(0,0,0,0.2);box-shadow:0 0 5px black;height:200px;position:absolute;top:0;left:0;margin-top:200px;}
+div.login_box div.login{width:290px;margin:0 auto;margin-top:30px;} 
+div.login_box div.login dl dt{font-size:17px;font-weight:bold;letter-spacing:1px;padding-bottom:10px;color:white;}
+div.login_box div.login dl dd{margin-top:5px;text-indent:4em;}
+div.login_box div.login dl dd span{font-size:10px;font-weight:initial;color:red;margin-left:20px;}
+div.login_box div.login dl dd:last-child{text-align:right;} 
+
+table{border-top:1px #E6E6E6 solid;border-right:1px #E6E6E6 solid;width:100%;border-radius:3px;}
+table tr{height:35px;line-height:35px;}
+table tr td{border-left:1px #E6E6E6 solid;border-bottom:1px #E6E6E6 solid;text-align:center;}
+table thead{background:#F2F2F2;}
+table thead tr{}
+table thead tr td{}
+table tbody{}
+table tbody tr{}
+table tbody tr td{}
+table tbody tr td input[type=button]{padding:3px 5px;width:initial;height:initial;margin-right:10px;}
+table tbody tr.check{background:#F2F2F2;}
+table tbody tr:hover{background:#F2F2F2;}
+table tbody tr td{}
+table tfoot{}
+table tfoot tr{}
+table tfoot tr td{}
+body.tab input{line-height:30px;height:30px;}
